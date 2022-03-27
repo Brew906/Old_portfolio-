@@ -1,0 +1,253 @@
+.homepage{/*main page back roung*/
+	background-color: rgb(221, 225, 238);
+}
+.headermain{
+    position: relative;
+    background-image: url('images/meHomePage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    /*background-color: rgb(203, 206, 18);*/
+    
+	height: 25em;
+    width: 100%;
+	/*margin: 3em;
+	border: 2em;
+	padding: 5em;*/
+}
+
+
+.mainHeadText{
+    position: absolute;
+    left: 20%;
+    
+}
+.headertext{/*header text and size*/
+	font: 50px sans-serif;   
+	position: absolute;
+	right: 5%;             
+	
+}
+.homebuttons{/*navagation buttons positon*/
+	position: absolute;
+	bottom: 10%;                      
+	right: 13%;                        
+}
+.homepagebuttons{/*navagation buttons size and color*/
+	background-color: rgb(173, 191, 194);
+	border-radius: 8px;
+	font-size: 1em;
+	padding: 10px 20px;
+	transition-duration: 0.04s;
+	border: 2px solid white;
+}
+.homepagebuttons:hover{/*navagation buttonscolor change on hover*/
+	background-color: rgb(31, 27, 27);
+	color:beige;
+}
+
+.homeMain{
+     
+    
+	height: 40em;
+    width: 80em;
+	margin: 1em;
+	border: 2em;
+	padding: 5em;
+}
+
+.HMleft{
+   
+    position: absolute;
+    left: 5%;
+	height: 10em;
+    width:30%;
+	padding: 5em;
+    font-size: 150%;
+	
+
+}
+.homefooter{
+    
+   height: 10em;
+   width: 80em;
+   margin: 1em;
+   border: 2em;
+   padding: 5em;
+}
+
+.aboutMain{
+   
+   
+   height: 70em;
+   width: 80em;
+   margin: 1em;
+   border: 2em;
+   padding: 5em;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
+
+.ABleft{
+    
+    position: absolute;
+    left: 5%;
+	height: 10em;
+    width:30%;
+	padding: 5em;
+    font-size: 150%;
+	
+
+}
+.ABright{
+    
+    position: absolute;
+    right: 5%;
+	height: 10em;
+    width:30%;
+	padding: 5em;
+    font-size: 150%;
+	
+
+}
+.ABbottom{
+    
+    position: absolute;
+    top: 140%;
+	height: 1em;
+    width:70%;
+	padding: 4em;
+    font-size: 150%;
+	
+
+}
+.aboutfooter{
+  
+  height: 10em;
+  width: 80em;
+  margin: 1em;
+  border: 2em;
+  padding: 5em;
+}
+
+.projectsMain{
+    
+      
+   height: 60em;
+   width: 80em;
+   margin: 1em;
+   border: 2em;
+   padding: 5em;
+}
+.p2{
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+.p4{
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+/*
+This is the way to have the hoover over the image option
+*/
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 30%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 10%;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+/*-----------------*/
+.projectsfooter{
+   
+  height: 10em;
+  width: 80em;
+  margin: 1em;
+  border: 2em;
+  padding: 5em;
+}
+
+.objectivesMain{
+    
+   
+   height: 15em;
+   width: 80em;
+   margin: 1em;
+   border: 2em;
+   padding: 5em;
+}
+.objectivesfooter{
+   
+  height: 10em;
+  width: 80em;
+  margin: 1em;
+  border: 2em;
+  padding: 5em;
+}
+
+.sipMain{
+    
+   
+   height: 40em;
+   width: 80em;
+   margin: 1em;
+   border: 2em;
+   padding: 5em;
+}
+.sipfooter{
+  
+  height: 10em;
+  width: 80em;
+  margin: 1em;
+  border: 2em;
+  padding: 5em;
+}
