@@ -3,14 +3,14 @@
 }
 .headermain{
     position: relative;
-    background-image: url('meHomePage1.jpg');
+    background-image: url('images/desk2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .head{
     /*background-color: rgb(203, 206, 18);*/
     
-	height: 25em;
+	height: 37em;
     width: 100%;
 	/*margin: 3em;
 	border: 2em;
@@ -20,11 +20,11 @@
 
 .mainHeadText{
     position: absolute;
-    left: 20%;
+    right: 22%;
     
 }
 .headertext{/*header text and size*/
-	font: 50px sans-serif;   
+	font: 60px sans-serif;   
 	position: absolute;
 	right: 5%;             
 	
@@ -50,7 +50,7 @@
 .homeMain{
      
     
-	height: 40em;
+	height: 20em;
     width: 80em;
 	margin: 1em;
 	border: 2em;
@@ -68,15 +68,23 @@
 	
 
 }
-.homefooter{
-    
-   height: 10em;
-   width: 80em;
-   margin: 1em;
-   border: 2em;
-   padding: 5em;
+.HPright{
+  position: absolute;
+  right:20%;
+
 }
 
+
+.footer{/*main page footer*/
+	position: absolute;
+	top:  150%;                                                
+	left: 2%;                                             
+	width: 95%;                                       
+	height: 20%;                    
+}
+.mainfooterlogo{/*main page footer*/
+	float: left;
+}
 .aboutMain{
    
    
@@ -130,6 +138,13 @@ ul {
 	
 
 }
+
+.ABbottomRight{
+  position: absolute;
+  right: 10%;
+  top: 190%;
+
+}
 .aboutfooter{
   
   height: 10em;
@@ -139,74 +154,98 @@ ul {
   padding: 5em;
 }
 
+
 .projectsMain{
     
       
-   height: 60em;
+   height: 27em;
    width: 80em;
    margin: 1em;
    border: 2em;
    padding: 5em;
 }
-.p2{
-    position: relative;
-    top: 5%;
-    left: 20%;
+.projectsMain1{
+    
+      
+  height: 27em;
+  width: 80em;
+  margin: 1em;
+  border: 2em;
+  padding: 5em;
 }
-.p4{
-    position: relative;
-    top: 5%;
-    left: 20%;
+.projectsMain2{
+    
+      
+  height: 27em;
+  width: 80em;
+  margin: 1em;
+  border: 2em;
+  padding: 5em;
 }
-/*
-This is the way to have the hoover over the image option
-*/
-.container {
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-    width: 30%;
-    height: 30%;
-    border-radius: 10%;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 30%;
-    height: 0;
-    transition: .5s ease;
-    border-radius: 10%;
-  }
-  
-  .container:hover .overlay {
-    height: 100%;
-  }
-  
-  .text {
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+.text1{
+  position: relative;
+  left:30%;
 
+}
+.text2{
+  position: relative;
+  left:50%;
+  bottom:8%;
 
+}
+.text3{
+  position: relative;
+  left:72%;
+  bottom:15%;
 
+}
+.text4{
+  position: relative;
+  left:5%;
 
+}
+.text5{
+  position: relative;
+  left:28%;
+  bottom:5%;
 
-/*-----------------*/
+}
+.text6{
+  position: relative;
+  left:50%;
+  bottom:9%;
+
+}
+.text7{
+  position: relative;
+  left:80%;
+  bottom:15%;
+
+}
+
+.text8{
+  position: relative;
+  left:5%;
+
+}
+.text9{
+  position: relative;
+  left:28%;
+  bottom:5%;
+
+}
+.text10{
+  position: relative;
+  left:50%;
+  bottom:9%;
+
+}
+.text11{
+  position: relative;
+  left:75%;
+  bottom:12%;
+
+}
 .projectsfooter{
    
   height: 10em;
@@ -237,7 +276,7 @@ This is the way to have the hoover over the image option
 .sipMain{
     
    
-   height: 40em;
+   height: 20em;
    width: 80em;
    margin: 1em;
    border: 2em;
